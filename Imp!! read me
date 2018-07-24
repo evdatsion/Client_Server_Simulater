@@ -1,0 +1,16 @@
+                             Server - Client Process Simulator And Manager
+   
+
+In this Project server side runs different scheduling algorithm so to manage the resource allocation to different clients 
+connected with the server.
+
+This folder contains all the cpp files needed for our project.
+--> s.cpp file is the server file where server is created and the algorithms are also include in this file .
+Main algorithm class is present in scheduler.h which is user made file. 
+
+We made it so that our code can easily be managed.
+structure.h contains the multilevel feed back's priority structure.
+
+--> c.cpp file is the client file.
+
+In order to create the client you need to run this file in separte tab of terminal and first you need to run the server then you will run the client so that client could connect to the server.
